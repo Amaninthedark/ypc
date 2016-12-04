@@ -30,12 +30,12 @@ img{
 	content: "."; display: block; height: 0; clear: both; visibility: hidden;
 }
 .more,.more:hover{
-	color: #CC0000;
+	color: #83c73c;
 }
 
 /*----------------header start----------------*/
 .header_wrap{
-	width: 100%; height: 38px; line-height: 38px; color:#FFF; background:#BA1A1A; border-bottom: solid 1px #eee;
+	width: 100%; height: 38px; line-height: 38px; color: #666; background: #f4f4f4; border-bottom: solid 1px #eee;
 }
 .header, .nav_menu, .notice, .content, .inside_con{
 	width: 1100px; margin: 0 auto;
@@ -57,24 +57,20 @@ img{
 }
 /*----------footer start----------*/
 .footer_wrap{
-	width: 100%;
-	height: 80px;
-	background: #BA1A1A;
-	color: #FFF;
-	position: relative;
+	width: 100%; height: 120px; background: #212425; color: #888; position: relative;
 }
 .footer_wrap .line{
-	position: absolute; top: 1px; width: 100%; height: 1px; background: #BA1A1A;
+	position: absolute; top: 1px; width: 100%; height: 1px; background: #959595;
 }
 .footer{
-	position: relative; width: 1080px; padding: 10px 0 0 20px; margin: 0 auto;
+	position: relative; width: 1080px; padding: 25px 0 0 20px; margin: 0 auto;
 }
 .footer .er{
 	position: absolute; top: 25px; right: 20px;
 }
 /*-------------nav style---------------*/
 .nav_menu{
-	height: 84px; 
+	height: 84px;
 }
 .nav_menu .logo{
 	margin-top: 16px;
@@ -97,11 +93,11 @@ img{
 .nav .sub a{ 
 	display: block; padding: 0 10px;
 }
-.nav .sub a:hover{
-	color: #CC0000;
+.nav .sub a:hover{ 
+	color: #59A707;
 }
 .nav .on h3 a{ 
-	color: #CC0000; border-bottom: solid 3px #CCCCCC; height: 81px;
+	color: #59A707; border-bottom: solid 3px #83c73c; height: 81px;
 }
 /*-----------------------------privately-owned style---------------------------------*/
 /*-------------banner style---------------*/
@@ -143,7 +139,7 @@ img{
 }
 /*-------------notice style---------------*/
 .notice_wrap{
-	width: 100%; height: 45px; line-height: 45px; border-bottom: solid 1px #ddd; background:#E4E4E4;
+	width: 100%; height: 45px; line-height: 45px; border-bottom: solid 1px #ddd;
 }
 .notice{ 
 	overflow: hidden; position: relative;
@@ -235,7 +231,7 @@ img{
 	width: 330px; height: 236px; margin-right: 26px; border: solid 1px #eee;
 }
 .about .b_wrap .a_text{
-	text-indent: 2em; width: 348px;line-height:20px;
+	text-indent: 2em; width: 348px;
 }
 .news{
 	margin-top: 22px; height: 325px; overflow: hidden;
@@ -253,12 +249,10 @@ img{
 	overflow: hidden; margin-bottom: 20px;
 }
 .hot .h_img{
-	width: 300px; height: 280px; border: solid 1px #eee; margin-right: 25px; float: left;
+	width: 80px; height: 80px; border: solid 1px #eee; margin-right: 25px; float: left;
 }
 .hot .h_text{
-	width: 280px;
-	float: left;
-	height: 50px;
+	width: 182px; float: left;
 }
 .b_wrap .h_text b, .b_wrap .h_text p{
 	line-height: 2em;
@@ -356,18 +350,13 @@ img{
 	width: 220px; min-height: 160px; background: #fff; border: solid 1px #eaeaea;
 }
 .sidemenu .s_title{
-	height: 36px;
-	line-height: 36px;
-	font-size: 14px;
-	color: #FFFFFF;
-	background: #CCCCCC;
-	padding-left: 20px;
+	height: 36px; line-height: 36px; font-size: 14px; color: #FFFFFF; background: #59A707; padding-left: 20px;
 }
 .sidemenu ul li a{
 	padding-left: 20px; height: 36px; line-height: 36px; border-bottom: dashed 1px #e6e6e6; margin-top: 5px; display: block;
 }
 .sidemenu ul li a:hover, .sidemenu ul li.on a{
-	color: #BA1A1A;
+	color: #59A707;
 }
 .ic_wrap, .topic_wrap{
 	width: 800px; min-height: 680px; padding: 40px 30px; background: #fff; margin-bottom: 20px; border: solid 1px #eaeaea;
@@ -699,3 +688,7 @@ img{
 .register_box .tc_login .login_register input.file{
 	padding: 15px; line-height: inherit; height: 22px;
 }
+
+
+
+

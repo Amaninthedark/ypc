@@ -35,7 +35,7 @@
 			</div>
 		</div>
 		<!--nav start-->
-		<div class="nav_menu">
+	<div class="nav_menu">
 			<a href="index.html" class="logo fl"><img src="images/logo.jpg" /></a>
 			<div class="nav_list fr" >
 				<ul id="nav" class="nav clearfix">
@@ -95,35 +95,94 @@
 		<div class="inside_wrap">
 			<div class="inside_con">
 				<div class="adr">
-					<a href="index.html">首页</a>&nbsp;>&nbsp;工会文件</div>
+					<a href="index.html">首页</a>&nbsp;>&nbsp;工会邮箱
+				</div>
 				<div class="inside_box">
 					<div class="sidemenu fl">
-						<div class="s_title">通知文件</div>
+						<div class="s_title">我的建议</div>
 						<ul>
-							<li class="on"><a href="teachers.html"></a></li>
+							<li class="on"></li>
 							
 						</ul>
 					</div>
 					<div class="ic_wrap fr">
-						<ul class="news_list">
-							<li><a href="nDetail3.html">文件</a></li>
-								<li><a href="nDetail3.html">文件</a></li>	<li><a href="nDetail3.html">文件</a></li>	<li><a href="nDetail3.html">文件</a></li>	<li><a href="nDetail3.html">文件</a></li>	<li><a href="nDetail3.html">文件</a></li>	<li><a href="nDetail3.html">文件</a></li>	<li><a href="nDetail3.html">文件</a></li>	<li><a href="nDetail3.html">文件</a></li>	<li><a href="nDetail3.html">文件</a></li>	<li><a href="nDetail3.html">文件</a></li>	<li><a href="nDetail3.html">文件</a></li>	<li><a href="nDetail3.html">文件</a></li>
-						</ul>
-						<!--分页-->
-						<div class="record">
-	                        <span class="prev"><a href="">上一页</a></span>
-	                        <span class="word"><a href="">1</a></span>
-	                        <span class="word"><a href="">2</a></span>
-	                        <span class="word"><a href="">3</a></span>
-	                        <span class="word"><a href="">4</a></span>
-	                        <span class="word"><a href="">5</a></span>
-	                        <span class="word"><a href="">6</a></span>
-	                        <span class="next"><a href="">下一页</a></span>
-	                        <span class="sum">共6页</span>
-	                    </div>
+					  <form id="form1" name="form1" method="post" action="">
+					    <table width="799" height="813" border="0" align="center">
+					      <tr>
+					        <td colspan="2">&nbsp;</td>
+				          </tr>
+					      <tr>
+					        <td width="28%"><div align="right">
+					          <h2>您的姓名 &nbsp;&nbsp;&nbsp;</h2>
+					        </div></td>
+					        <td width="72%"><input type="text" name="textfield" /></td>
+				          </tr>
+					      <tr>
+					        <td><div align="right">
+					          <h2>联系电话&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+					        </div></td>
+					        <td>  <input type="text" name="textfield2" /></td>
+				          </tr>
+					      <tr>
+					        <td><div align="right">
+					          <h2> 部门院系&nbsp;&nbsp; &nbsp;</h2>
+					        </div></td>
+					        <td><input type="text" name="textfield3" /></td>
+				          </tr>
+					      <tr>
+					        <td><div align="right">
+					          <h2>联系QQ&nbsp;&nbsp;&nbsp;&nbsp; </h2>
+					        </div></td>
+					        <td><input type="text" name="textfield4" /></td>
+				          </tr>
+					      <tr>
+					        <td height="311"><div align="right"> 
+					          <h2>内&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;容&nbsp;&nbsp;&nbsp;&nbsp;</h2>
+					        </div></td>
+					        <td><textarea name="textarea" cols="40" rows="8"></textarea></td>
+				          </tr>
+					      <tr>
+					        <td colspan="2"><div align="right">
+					          <table width="100%" border="0">
+					            <tr>
+					              <td width="42%"><div align="right">
+					                <input type="submit" name="Submit" onclick="a()" value="提交">
+					                </div></td>
+					              <td width="7%">&nbsp;</td>
+					              <td width="51%"><div align="left">
+					                <input type="reset" name="Submit2" value="重写" />
+					                </div></td>
+				                </tr>
+				              </table></td>
+				          </tr>
+					      <tr>
+					        <td colspan="2">&nbsp;</td>
+				          </tr>
+				        </table>
+					    <script>
+
+    function checkOK() {
+
+        var f = document.form1;
+
+        if (f.textfield.value != '' && f.textfield2.value != '' && f.textfield3.value != '') aaa();
+
+    }
+
+    function a() {
+
+        alert('gh.ypc.edu.cn提示：');
+		alert('     留言成功      ');
+
+    }
+
+                      </script>
+				      </form>
+												
+					
 					</div>
 					<div class="clear"></div>
-				</div>
+			  </div>
 			</div>
 		</div>
 		<!--footer start-->
