@@ -1,6 +1,7 @@
 /*-----------------------------common style---------------------------------*/
 *{
-	margin: 0; padding: 0;
+	margin: 0;
+	padding: 0;
 }
 html, body{
 	width: 100%; height: auto; font-family: "微软雅黑"; font-size: 12px; color: #333; line-height: 2em; background: #fff;
@@ -14,9 +15,7 @@ a:hover{
 ul,li{
 	list-style-type: none;
 }
-img{
-	display: block; margin: 0 auto; vertical-align: middle;
-}
+
 .fl{
 	float: left;
 }
@@ -105,11 +104,21 @@ img{
 }
 /*-----------------------------privately-owned style---------------------------------*/
 /*-------------banner style---------------*/
-.banner{ 
-	width: 100%; position: relative; height: 350px;
+.da{
+	float:right;
+	
+	}
+.banner{
+	width: 100%;
+	position: relative;
+	height: 350px;
 }
-.banner .bd{ 
-	margin: 0 auto; position: relative; z-index: 0; overflow: hidden;
+.banner .bd{
+	margin: 0 auto;
+	position: relative;
+	z-index: 0;
+	overflow: hidden;
+	width: 100%;
 }
 .banner .bd ul{ 
 	width: 100%!important;
@@ -143,13 +152,21 @@ img{
 }
 /*-------------notice style---------------*/
 .notice_wrap{
-	width: 100%; height: 45px; line-height: 45px; border-bottom: solid 1px #ddd; background:#E4E4E4;
+	width: 100%;
+	height: 45px;
+	line-height: 30px;
+	border-bottom: solid 1px #ddd;
+	background: #E4E4E4;
 }
-.notice{ 
-	overflow: hidden; position: relative;
+.notice{
+	overflow: hidden;
+	position: relative;
+	width: 320px;
 }
-.notice .bd{ 
-	overflow: hidden; margin-left: 15px;
+.notice .bd{
+	overflow: hidden;
+	margin-left: 0px;
+	width: 320px;
 }
 .notice .bd b{
 	font-size: 13px; float: left; margin-right: 15px; color: #444;
@@ -160,11 +177,15 @@ img{
 .notice .more{
 	margin-right: 15px;
 }
-.notice .infoList li{ 
-	height: 45px; line-height: 45px; overflow: hidden; width: 660px;
+.notice .infoList li{
+	height: 20px;
+	line-height: 20px;
+	overflow: hidden;
+	width: 320px;
 }
-.notice .infoList li .date{ 
-	float: right; color: #999;
+.notice .infoList li .date{
+	float: right;
+	color: #999;
 }
 /*---------------------content style------------------------*/
 .box2, .box3, .schoolmate, .friendlink{
@@ -177,7 +198,11 @@ img{
 	border: solid 1px #ddd;
 }
 .content .b_title{
-	height: 46px; line-height: 46px; border-bottom: solid 1px #eee; overflow: hidden; padding: 0 15px;
+	height: 60px;
+	line-height: 46px;
+	border-bottom: solid 1px #eee;
+	overflow: hidden;
+	padding: 0 15px;
 }
 .content .b_title h3{
 	font-size: 15px; float: left; font-weight: normal;
@@ -294,7 +319,8 @@ img{
 	text-indent: 2em;
 }
 .schoolmate{
-	height: 283px; overflow: hidden;
+	height: 260px;
+	overflow: hidden;
 }
 .schoolmate .b_wrap{
 	position: relative;
@@ -699,3 +725,12 @@ img{
 .register_box .tc_login .login_register input.file{
 	padding: 15px; line-height: inherit; height: 22px;
 }
+.Links
+{
+	border: solid 1px #ddd;
+	margin-top: 50px;
+	height: 50px;
+	overflow: hidden;
+	line-height: 46px;
+	padding: 0 15px;
+	}
