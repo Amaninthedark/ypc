@@ -8,6 +8,7 @@
 		<title>绍兴文理学院元培学院工会</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css" />
 		<link rel="stylesheet" type="text/css" href="css/popup.css"/>
+          <link rel="stylesheet" href="css/luara.left.css"/>
 	</head>
 	<body>
 		<!--header start-->
@@ -70,8 +71,8 @@
 			</div>
 		</div>
 		<!--nav start-->
-		<div class="nav_menu">
-			<a href="index.html" class="logo fl"><img src="images/logo.jpg" /></a>
+		<div class="nav_mnu">
+			<a href="index.html" class="logo fl"><img src="images/logo.png" /></a>
 			<div class="nav_list fr" >
 				<ul id="nav" class="nav clearfix">
 					<li class="nLi"></li>
@@ -104,6 +105,8 @@
                             <li><a href="education5.html">教代会知识</a></li>
 						</ul>
 					</li>
+                    <li class="nLi">
+						<h3><a href="teachers1.html">教师风采&nbsp;&nbsp;</a></h3>
 					<li class="nLi">
 						<h3><a href="email.html">工会信箱</a></h3>
 						<!--<ul class="sub">
@@ -151,13 +154,26 @@
 							<a href="about.html" class="more">更多+</a>
 						</div>
 						<div class="b_wrap">
-							<div class="a_img fl">
-								<img src="images/about.jpg" />
-							</div>
-							<div class="a_text fl">
-								<p> 绍兴文理学院元培学院工会成立于2002年，现有工会会员320余名。工会小组12个。多年来，学院工会在院党委和上级工会的领导下，坚持以邓小平理论和“三个代表”重要思想为指导，深入学习贯彻科学发展观，紧紧围绕学院中心任务，认真履行工会组织的“维护、参与、建设、教育”四项社会职能，积极发挥党政联系群众的桥梁和纽带作用，独立自主地、创造性地开展工作。</p>
+							<div class=".example">  
+                              <div class="a_text fl">
+								<p> 绍兴文理学院元培学院工会成立于2002年，现有工会会员320余名。工会小组12个。多年来，学院工会在院党委和上级工会的领导下，坚持以邓小平理论和“三个代表”重要思想为指导，深入学习贯彻科学发展观紧紧围绕学院中心任务，认真履行工会组织的“维护、参与、建设、教育”四项社会职能，积极发挥党政联系群众的桥梁和纽带作用，独立自主地、创造性地开展工作。</p>
 								<p>近年来，学院工会坚持教代会制度，在“全心全意依靠教职工办好学院”的思想指导下，培养教职工的主人翁意识，切实推进了学院的民主建设；同时围绕“育人”工作，深入开展师德师风建设活动，先后组织开展了“教坛新秀”的评比活动，为学院的内涵建设注入了新的活力。为了丰富教职工的业余生活，学院工会还积极开展形式多样的文体活动，大力促进了校园文化建设，提升了学院的凝聚力。</p>
 							</div>
+								<ul>
+            <li><img src="images/1.jpg" alt="1" width="321" height="276"/></li>
+            <li><img src="images/2.jpg" alt="2" width="322" height="291"/></li>
+            <li><img src="images/3.jpg" alt="3" width="325" height="227"/></li>
+            <li><img src="images/4.jpg" alt="4" width="327" height="296"/></li>
+        </ul>
+        <ol>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ol>	
+  
+							</div>  
+						
 							<div class="clear"></div>
 						</div>
 					</div>
@@ -299,11 +315,20 @@
 			   <p>&nbsp;&nbsp;版权所有：绍兴文理学院元培学院工会 &nbsp; &nbsp;&nbsp;邮编: 312000</p>
 				<p>&nbsp;&nbsp;电话：88345808&nbsp; &nbsp;&nbsp;传真：88061806&nbsp; &nbsp;&nbsp;学校地址：浙江省绍兴市群贤中路2799号  &nbsp;&nbsp;维护：疯鸟网络</p>
              </div>
-			 <p></p>
+			
 			</div>
 		</div>
 
+   
+     <script src="js/jquery-1.8.3.min.js"></script>
+    <script src="js/jquery.luara.0.0.1.min.js"></script>
+   <script>
+        $(function(){
+           
+            $(".example2").luara({width:"500",height:"334",interval:4500,selected:"seleted",deriction:"left"});
 
+        });
+    </script>
 	<script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
 		<script src="js/jquery.SuperSlide.2.1.js" type="text/javascript"></script>
 		<script src="js/common.js"></script>
